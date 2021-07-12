@@ -25,3 +25,4 @@ fields:
   label: lang
 pages:
 - content/projects/en/prueba.md
+- content/projects/es/prueba.md
