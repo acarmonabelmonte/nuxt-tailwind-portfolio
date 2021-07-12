@@ -23,3 +23,5 @@ fields:
       file: 
       path: 
   label: lang
+pages:
+- content/projects/en/prueba.md
