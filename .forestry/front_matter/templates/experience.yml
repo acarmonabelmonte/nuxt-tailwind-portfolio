@@ -1,0 +1,16 @@
+---
+label: Experience
+hide_body: true
+fields:
+- type: text
+  name: lang
+  label: lang
+- type: text
+  name: title
+  label: title
+- type: file
+  name: image
+  label: image
+- type: textarea
+  name: description
+  label: description
