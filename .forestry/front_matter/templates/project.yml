@@ -38,4 +38,5 @@ fields:
       format: markdown
   label: description
 pages:
+- content/projects/en/test-project-1.md
 - content/projects/es/proyecto-de-prueba-1.md
