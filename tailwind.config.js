@@ -1,11 +1,25 @@
 module.exports = {
-  purge: [],
+  purge: [
+    './src/pages/**/*.{html,js}',
+     './src/components/**/*.{html,js}',
+     './src/layouts/**/*.{html,js}',
+     './src/index.html',
+  ],
   mode: 'jit',
-  darkMode: false, // or 'media' or 'class'
-  theme: {
-    extend: {},
-  },
+  darkMode: "class",
   variants: {
+    backgroundColor: [
+      "dark",
+      "dark-hover",
+      "dark-group-hover",
+      "dark-even",
+      "dark-odd"
+    ],
+    borderColor: ["dark", "dark-focus", "dark-focus-within"],
+    textColor: ["dark", "dark-hover", "dark-active"]
+  },
+
+  theme: {
     extend: {},
   },
   plugins: [],
