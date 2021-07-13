@@ -12,4 +12,5 @@ fields:
   name: description
   label: description
 pages:
+- content/education/en/test-education-1.md
 - content/education/es/formacion-prueba-1.md
