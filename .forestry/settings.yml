@@ -14,7 +14,7 @@ sections:
   label: Projects
   create: all
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 upload_dir: static/images/cms
 public_path: "/images/cms"
 front_matter_path: ''
