@@ -9,20 +9,6 @@ fields:
   label: Title
   description: test
   hidden: false
-- name: lang
-  type: select
-  default: []
-  config:
-    required: false
-    options:
-    - es
-    - en
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: lang
 - name: image
   type: file
   config:

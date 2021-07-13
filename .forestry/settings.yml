@@ -10,6 +10,17 @@ sections:
   create: all
   match: "**/*"
   new_doc_ext: md
+- type: directory
+  path: content/education
+  label: Education
+  create: all
+  match: "**/*"
+  new_doc_ext: md
+- type: directory
+  path: content/experience
+  label: Experience
+  create: all
+  match: "**/*"
 upload_dir: static/images/cms
 public_path: "/images/cms"
 front_matter_path: ''
