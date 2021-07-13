@@ -37,7 +37,7 @@
         <div class="flex items-center">
           <img
             class="w-24 h-24 hidden md:block"
-            src="/logo/logo_transparent.png"
+            src="/images/logo/logo_transparent.png"
             alt="logo"
           />
         </div>
@@ -123,7 +123,11 @@
         class="flex w-full justify-center border-b bg-gray-100 relative"
       >
         <nuxt-link to="/" class="text-copy-primary hover:text-gray-600">
-          <img class="w-28 h-28" src="/logo/logo_transparent.png" alt="logo" />
+          <img
+            class="w-28 h-28"
+            src="images/logo/logo_transparent.png"
+            alt="logo"
+          />
         </nuxt-link>
         <div class="absolute top-0 right-0 h-16 w-16 flex mt-2 justify-end">
           <font-awesome-icon
@@ -160,7 +164,7 @@
 </template>
 
 <script>
-import LangSelector from './LangSelector.vue'
+import LangSelector from "./LangSelector.vue";
 export default {
   components: { LangSelector },
   data() {
@@ -171,58 +175,58 @@ export default {
       },
       routes: [
         {
-          name: this.$t('about_me'),
-          path: 'about-me',
-          icon: 'user',
+          name: this.$t("about_me"),
+          path: "about-me",
+          icon: "user",
         },
         {
-          name: this.$t('projects'),
-          path: 'projects',
-          icon: 'rocket',
+          name: this.$t("projects"),
+          path: "projects",
+          icon: "rocket",
         },
         {
-          name: this.$t('contact'),
-          path: 'contact',
-          icon: 'envelope',
+          name: this.$t("contact"),
+          path: "contact",
+          icon: "envelope",
         },
       ],
-    }
+    };
   },
   beforeMount() {
-    window.addEventListener('scroll', this.handleScroll)
+    window.addEventListener("scroll", this.handleScroll);
   },
   watch: {
     isOpen: {
       immediate: true,
       handler(isOpen) {
         if (process.client) {
-          if (isOpen) document.body.style.setProperty('overflow', 'hidden')
-          else document.body.style.removeProperty('overflow')
+          if (isOpen) document.body.style.setProperty("overflow", "hidden");
+          else document.body.style.removeProperty("overflow");
         }
       },
     },
   },
   mounted() {
-    document.addEventListener('keydown', (e) => {
-      if (e.keyCode == 27 && this.isOpen) this.isOpen = false
-    })
+    document.addEventListener("keydown", (e) => {
+      if (e.keyCode == 27 && this.isOpen) this.isOpen = false;
+    });
   },
   methods: {
     drawer() {
-      this.isOpen = !this.isOpen
+      this.isOpen = !this.isOpen;
     },
     handleScroll() {
       // when the user scrolls, check the pageYOffset
       if (window.pageYOffset > 0) {
         // user is scrolled
-        if (this.view.atTopOfPage) this.view.atTopOfPage = false
+        if (this.view.atTopOfPage) this.view.atTopOfPage = false;
       } else {
         // user is at top of page
-        if (!this.view.atTopOfPage) this.view.atTopOfPage = true
+        if (!this.view.atTopOfPage) this.view.atTopOfPage = true;
       }
     },
   },
-}
+};
 </script>
 
 <style scoped>
