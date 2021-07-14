@@ -1,22 +1,35 @@
 <template>
-  <div>
-    <nuxt-link
-      v-for="locale in availableLocales"
-      :key="locale.code"
-      :to="switchLocalePath(locale.code)"
-      ><country-flag :country="locale.flag" size="normal"
-    /></nuxt-link>
-  </div>
+  <select
+    v-model="selectedValue"
+    @change="onChange(selectedValue)"
+    class="font-medium uppercase"
+  >
+    <option
+      v-for="(locale, index) in $i18n.locales"
+      :key="index"
+      :value="locale.code"
+    >
+      {{ locale.code }}
+    </option>
+  </select>
 </template>
 
 <script>
 export default {
-  computed: {
-    availableLocales() {
-      return this.$i18n.locales.filter((i) => i.code !== this.$i18n.locale)
+  data() {
+    return {
+      selectedValue: "",
+    };
+  },
+  created() {
+    this.selectedValue = this.$i18n.locale;
+  },
+  methods: {
+    onChange(event) {
+      this.$router.replace(this.switchLocalePath(event));
     },
   },
-}
+};
 </script>
 
 <style scoped>
