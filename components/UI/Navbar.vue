@@ -192,12 +192,7 @@ export default {
 <style scoped>
 a.nuxt-link-exact-active {
   font-weight: bold;
-  box-shadow: inset 0 -10px 0 0 #b2ebf9;
-  /* display: inline;
-  background-image: linear-gradient(
-    rgba(255, 255, 255, 0.363) 60%,
-    #b2ebf9 55%
-  ); */
+  box-shadow: inset 0 -10px 0 0 #87b2f7;
 }
 
 nav {
