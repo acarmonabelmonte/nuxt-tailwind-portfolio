@@ -74,13 +74,18 @@ export default {
         },
         {
           type: "fab",
+          name: "github",
+          href: "https://github.com/acarmonabelmonte",
+        },
+        {
+          type: "fab",
           name: "instagram",
           href: "https://www.instagram.com/adriancarbel/",
         },
         {
           type: "fab",
-          name: "github",
-          href: "https://github.com/acarmonabelmonte",
+          name: "twitter",
+          href: "https://twitter.com/adriancarbel",
         },
       ],
     };

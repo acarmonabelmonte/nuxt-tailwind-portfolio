@@ -2,13 +2,13 @@
   <div class="bg-white dark:bg-gray-900 text-black">
     <UINavbar />
     <section>
-      <div class="container px-5 py-24 sm:py-10 mx-auto">
+      <div class="container px-5 py-24 sm:py-20 mx-auto">
         <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto">
           <HomeHeader />
           <HomeProjectSection :projects="projects" />
           <CommonViewMoreLink :url="'projects'" :text="$t('more_projects')" />
           <HomeAboutSection />
-          <CommonViewMoreLink :url="'about-me'" :text="'MÁS SOBRE MÍ...'" />
+          <CommonViewMoreLink :url="'about-me'" :text="$t('more_about_me')" />
           <HomeContactSection />
         </div>
       </div>
