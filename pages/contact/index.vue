@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white text-black">
+  <div class="bg-white dark:bg-gray-900 text-black">
     <UINavbar />
     <section>
       <div class="container px-5 py-24 mx-auto">
@@ -8,6 +8,7 @@
         </div>
       </div>
     </section>
+    <UIUpButton :scrollTopPixels="100" />
     <UIMainFooter />
   </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <section class="text-gray-600 body-font">
+  <section class="dark:text-white body-font">
     <div class="container mx-auto flex px-5 md:flex-row flex-col items-center">
       <div
         class="
@@ -14,9 +14,7 @@
           text-center
         "
       >
-        <h1
-          class="title-font sm:text-2xl text-3xl mb-4 font-medium text-gray-900"
-        >
+        <h1 class="title-font sm:text-2xl text-3xl mb-4 font-medium">
           ¡Hola! Soy Adrián Carmona
         </h1>
         <p class="mb-8">
@@ -48,7 +46,7 @@
         <img
           class="object-cover object-center rounded"
           alt="hero"
-          src="svg/about-me.svg"
+          src="/svg/about-me.svg"
         />
       </div>
     </div>

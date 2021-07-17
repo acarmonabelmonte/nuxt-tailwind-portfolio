@@ -1,12 +1,10 @@
 <template>
-  <section class="text-gray-600 body-font relative mt-10" id="contact">
+  <section class="dark:text-white body-font relative mt-10" id="contact">
     <div class="mx-auto">
       <div class="flex flex-wrap -m-2">
         <div class="p-2 w-full sm:w-1/2">
           <div class="relative">
-            <label for="name" class="leading-7 text-sm text-gray-600"
-              >Name</label
-            >
+            <label for="name" class="leading-7 text-sm">Name</label>
             <input
               type="text"
               id="name"
@@ -16,12 +14,12 @@
                 bg-gray-100 bg-opacity-50
                 rounded
                 border border-gray-300
-                focus:border-indigo-500
+                focus:border-blue-500
                 focus:bg-white
-                focus:ring-2 focus:ring-indigo-200
+                focus:ring-2 focus:ring-blue-200
                 text-base
                 outline-none
-                text-gray-700
+                text-black
                 py-1
                 px-3
                 leading-8
@@ -34,9 +32,7 @@
         </div>
         <div class="p-2 w-full sm:w-1/2">
           <div class="relative">
-            <label for="email" class="leading-7 text-sm text-gray-600"
-              >Email</label
-            >
+            <label for="email" class="leading-7 text-sm">Email</label>
             <input
               type="email"
               id="email"
@@ -46,12 +42,12 @@
                 bg-gray-100 bg-opacity-50
                 rounded
                 border border-gray-300
-                focus:border-indigo-500
+                focus:border-blue-500
                 focus:bg-white
-                focus:ring-2 focus:ring-indigo-200
+                focus:ring-2 focus:ring-blue-200
                 text-base
                 outline-none
-                text-gray-700
+                text-black
                 py-1
                 px-3
                 leading-8
@@ -64,9 +60,7 @@
         </div>
         <div class="p-2 w-full">
           <div class="relative">
-            <label for="message" class="leading-7 text-sm text-gray-600"
-              >Message</label
-            >
+            <label for="message" class="leading-7 text-sm">Message</label>
             <textarea
               id="message"
               name="message"
@@ -75,13 +69,13 @@
                 bg-gray-100 bg-opacity-50
                 rounded
                 border border-gray-300
-                focus:border-indigo-500
+                focus:border-blue-500
                 focus:bg-white
-                focus:ring-2 focus:ring-indigo-200
+                focus:ring-2 focus:ring-blue-200
                 h-32
                 text-base
                 outline-none
-                text-gray-700
+                text-black
                 py-1
                 px-3
                 resize-none
@@ -109,7 +103,7 @@
               text-lg
             "
           >
-            Button
+            Enviar
           </button>
         </div>
       </div>
