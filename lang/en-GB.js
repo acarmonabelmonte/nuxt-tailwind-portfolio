@@ -3,6 +3,7 @@ export default {
   welcome_title: "Hi! I'm Adrián Carmona",
   welcome_subtitle: "I am a Frontend Developer. Take a look at my portfolio and know more about me and my work.",
   btn_cv: "View CV",
+  about_me_section: "My name is Adrián Carmona, I am passionate about the technological world and I try to be constantly learning about the latest news and growing day by day as a professional in the sector.",
   // Navbar:
   home: "Home",
   about_me: "About me",
@@ -10,7 +11,7 @@ export default {
   contact: "Contact",
   // Links:
   see_web: "See website",
-  more_projects: "More projects",
+  more_projects: "More projects...",
   more_about_me: "More about me...",
   // Contact Form
   contact_label_name: "Name",
