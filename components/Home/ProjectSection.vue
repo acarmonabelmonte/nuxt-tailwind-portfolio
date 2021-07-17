@@ -11,7 +11,7 @@
       </div>
       <div class="flex flex-wrap -m-4 mb-3">
         <div
-          class="md:w-1/2 p-4"
+          class="md:w-1/2 py-4 sm:px-4"
           v-for="(project, index) in projects"
           :key="index"
         >
@@ -33,6 +33,7 @@
               :href="project.url"
             >
               VER WEB
+              <font-awesome-icon :icon="['fas', 'globe']" />
             </a>
             <h2 class="text-lg font-medium title-font">
               {{ project.title }}

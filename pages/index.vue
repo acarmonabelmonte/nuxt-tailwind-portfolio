@@ -26,7 +26,8 @@ export default {
     const projects = await $content(`projects/${defaultLocale}`).fetch();
 
     return {
-      projects: projects,
+      // shuffle array and extract two elements
+      projects: projects.sort(() => Math.random() - 0.5).slice(0, 2),
     };
   },
 };
