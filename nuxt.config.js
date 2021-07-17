@@ -58,11 +58,15 @@ export default {
   colorMode: {
     classSuffix: ""
   },
-
+  toast: {
+    position: 'top-right',
+    duration : 3000
+  },
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    '@nuxtjs/toast',
     'nuxt-i18n',
     [
       'nuxt-fontawesome', {
