@@ -2,16 +2,17 @@
   <div class="bg-white text-black">
     <UINavbar />
     <section>
-      <div class="container px-5 py-24 sm:py-10 mx-auto">
+      <div class="container px-5 py-24 mx-auto">
         <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto">
-          <div v-for="(edu, index) in education" :key="index">
-            <!-- <div class="text-xs uppercase font-bold">{{ edu.date }}</div> -->
-            <div>
+          <HomeAboutSection />
+          <!-- <div v-for="(edu, index) in education" :key="index"> -->
+          <!-- <div class="text-xs uppercase font-bold">{{ edu.date }}</div> -->
+          <!-- <div>
               {{ edu.title }}
               <p>{{ edu.description }}</p>
-            </div>
-            <!-- <nuxt-content class="mt-1 text-base" :document="edu" /> -->
-          </div>
+            </div> -->
+          <!-- <nuxt-content class="mt-1 text-base" :document="edu" /> -->
+          <!-- </div> -->
         </div>
       </div>
     </section>

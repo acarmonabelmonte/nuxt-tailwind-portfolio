@@ -5,6 +5,9 @@
       <div class="container px-5 py-24 sm:py-10 mx-auto">
         <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto">
           <HomeHeader />
+          <HomeProjectSection />
+          <HomeAboutSection />
+          <HomeContactSection />
         </div>
       </div>
     </section>
