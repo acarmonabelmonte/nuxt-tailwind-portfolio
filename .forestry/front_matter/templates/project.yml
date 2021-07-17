@@ -38,4 +38,5 @@ fields:
     required: false
   label: url
 pages:
+- content/projects/en/folks-vacation.md
 - content/projects/es/folks-vacation.md
