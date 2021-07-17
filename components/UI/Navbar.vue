@@ -11,6 +11,8 @@
         py-8
         h-16
         bg-white
+        dark:text-white
+        dark:bg-gray-800
         text-black
       "
     >
@@ -34,7 +36,7 @@
         </button>
       </div>
       <div class="flex items-center">
-        <div class="md:flex md:justify-between md:bg-transparent font-semibold">
+        <div class="flex justify-between md:bg-transparent font-semibold">
           <div
             class="flex items-center p-3 mr-2 text-center hidden md:block"
             v-for="(route, index) in routes"
@@ -46,6 +48,9 @@
           </div>
           <div class="flex items-center p-3 mr-2 text-center">
             <UILangSelector />
+          </div>
+          <div class="flex items-center p-3 text-center">
+            <UIThemeSelector />
           </div>
         </div>
       </div>
@@ -77,6 +82,9 @@
           left-0
           w-full
           bg-white
+          dark:text-white
+          dark:bg-gray-800
+          text-black
           fixed
           h-full
           overflow-auto
@@ -190,6 +198,11 @@ export default {
 </script>
 
 <style scoped>
+.dark a.nuxt-link-exact-active {
+  font-weight: bold;
+  box-shadow: inset 0 -10px 0 0 #03378b;
+}
+
 a.nuxt-link-exact-active {
   font-weight: bold;
   box-shadow: inset 0 -10px 0 0 #87b2f7;
