@@ -10,13 +10,13 @@ image: "/images/cms/folks-vacation.png"
 url: https://folks-vacation.com/
 list: |-
   <ul>
-    <li>Integración con PMS mediate API</li>
-    <li>Desarrollo del motor de reserva integrado</li>
-    <li>Sincronización con OTAs</li>
-    <li>Administración de propiedades</li>
-    <li>CMS integrado</li>
-    <li>Desplegado en cloud totalmente escalable y monitorización continua</li>
-    <li>Integración con pasarelas de pago</li>
+    <li>- Integración con PMS mediate API</li>
+    <li>- Desarrollo del motor de reserva integrado</li>
+    <li>- Sincronización con OTAs</li>
+    <li>- Administración de propiedades</li>
+    <li>- CMS integrado</li>
+    <li>- Desplegado en cloud totalmente escalable y monitorización continua</li>
+    <li>- Integración con pasarelas de pago</li>
   </ul>
 
 ---
