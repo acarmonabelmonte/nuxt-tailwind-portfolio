@@ -1,5 +1,5 @@
 <template>
-  <footer class="text-gray-600 body-font">
+  <footer class="dark:text-white body-font">
     <div
       class="container px-5 py-4 mx-auto flex items-center sm:flex-row flex-col"
     >
@@ -11,23 +11,29 @@
           items-center
           md:justify-start
           justify-center
-          text-gray-900
         "
       >
-        <img class="w-10 h-auto" src="images/logo/logo-light.png" />
+        <img
+          class="w-10 h-auto"
+          :src="
+            $colorMode.preference == 'light'
+              ? '/images/logo/logo-light.png'
+              : '/images/logo/logo-dark.png'
+          "
+        />
       </a>
       <p
         class="
-          text-sm text-gray-500
+          text-sm
           sm:ml-4
           sm:pl-4
-          sm:border-l-2 sm:border-gray-200
+          sm:border-l-2 sm:border-blue-300
           sm:py-2
           sm:mt-0
           mt-4
         "
       >
-        © Adrián Carmona {{ currentYear }}. Made with Vue/Nuxt & Netlify.
+        © Adrián Carmona {{ currentYear }}. {{ $t("made_with") }}
       </p>
       <span
         class="

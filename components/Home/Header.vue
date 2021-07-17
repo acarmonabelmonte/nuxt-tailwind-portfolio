@@ -1,5 +1,5 @@
 <template>
-  <section class="text-gray-600 body-font">
+  <section class="dark:text-white body-font">
     <div class="container mx-auto flex px-5 md:flex-row flex-col items-center">
       <div
         class="
@@ -14,14 +14,11 @@
           text-center
         "
       >
-        <h1
-          class="title-font sm:text-2xl text-3xl mb-4 font-medium text-gray-900"
-        >
-          ¡Hola! Soy Adrián Carmona
+        <h1 class="title-font sm:text-2xl text-3xl mb-4 font-medium">
+          {{ $t("welcome_title") }}
         </h1>
         <p class="mb-8">
-          Soy Desarrollador Web o Frontend y me gusta el mundo de las
-          tecnologías, etc
+          {{ $t("welcome_subtitle") }}
         </p>
         <div class="flex justify-center">
           <a
@@ -40,7 +37,7 @@
             href="/documents/cv-acarmona.pdf"
             download="cv-adrian-carmona-belmonte"
           >
-            Ver CV
+            {{ $t("btn_cv") }}
           </a>
         </div>
       </div>
@@ -48,7 +45,7 @@
         <img
           class="object-cover object-center rounded"
           alt="hero"
-          src="svg/about-me.svg"
+          src="/svg/about-me.svg"
         />
       </div>
     </div>
