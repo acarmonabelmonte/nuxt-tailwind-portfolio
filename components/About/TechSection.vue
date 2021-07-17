@@ -18,7 +18,7 @@
                 rounded-full
                 inline-block
                 border-2 border-blue-200
-                bg-blue-100
+                bg-white
               "
               :src="tech.image"
             />
