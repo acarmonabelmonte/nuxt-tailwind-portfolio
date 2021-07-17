@@ -1,8 +1,8 @@
 ---
 title: Folks Vacation
-short_description: 'I participated in the development and design of the website for
-  a vacation rental portal. Work was done on: property and reservation management,
-  availability search, online check-in and comments.'
+short_description: I participated in the development and design of the website for
+  a vacation rental portal. Property and reservation management, availability search,
+  online check-in and comments.
 description: |-
   It is a vertical solution for the entire management of the vacation rental business before, during and after the guests' stay: property management and reservations, availability search, online check-in and comments.
 
