@@ -37,3 +37,5 @@ fields:
   config:
     required: false
   label: url
+pages:
+- content/projects/es/folks-vacation.md
