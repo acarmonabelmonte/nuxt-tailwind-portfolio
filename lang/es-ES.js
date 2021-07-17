@@ -10,6 +10,10 @@ export default {
   about_p3: "Puedes ver mi formación académica y mi experiencia laboral en mi currículum:",
   about_p4: "Gracias por emplear tu tiempo en leer e interesarte en conocer más acerca de mí.",
   about_p5: "¡Un saludo!",
+  // Contact Page
+  contact_p1: "¡No dudes en escribirme si tienes alguna duda o quieres ponerte en contacto connmigo!",
+  contact_p2: "Puedes también enviarme un email directamente a:",
+  contact_p3:"O escribirme por mis redes sociales:",
   // Navbar:
   home: "Inicio",
   about_me: "Sobre mí",
@@ -25,5 +29,5 @@ export default {
   contact_label_message: "Mensaje",
   btn_send: "Enviar",
   // Footer
-  made_with: "Hecho con Vue/Nuxt y Netlify."
+  made_with: "Hecho con Vue/Nuxt, Tailwind CSS y Netlify."
 }
