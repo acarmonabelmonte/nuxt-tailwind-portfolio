@@ -5,24 +5,38 @@ fields:
 - name: title
   type: text
   config:
-    required: false
+    required: true
   label: Title
   description: test
   hidden: false
+- name: short_description
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: short description
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: description
 - name: image
   type: file
   config:
     maxSize: 64
   label: image
-- name: description
-  type: textarea
-  default: ''
+- name: url
+  type: text
   config:
     required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: description
+  label: url
 pages:
 - content/projects/en/test-project-1.md
 - content/projects/es/proyecto-de-prueba-1.md
