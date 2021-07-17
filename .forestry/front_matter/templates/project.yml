@@ -37,6 +37,15 @@ fields:
   config:
     required: false
   label: url
+- name: list
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: list
 pages:
 - content/projects/en/folks-smart-real-estate.md
 - content/projects/en/folks-vacation.md
