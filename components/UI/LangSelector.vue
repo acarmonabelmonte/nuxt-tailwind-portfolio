@@ -2,7 +2,7 @@
   <select
     v-model="selectedValue"
     @change="onChange(selectedValue)"
-    class="font-medium uppercase"
+    class="font-medium uppercase dark:bg-gray-900"
   >
     <option
       v-for="(locale, index) in $i18n.locales"
