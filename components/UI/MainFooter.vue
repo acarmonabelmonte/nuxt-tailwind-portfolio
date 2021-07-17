@@ -33,7 +33,7 @@
           mt-4
         "
       >
-        © Adrián Carmona {{ currentYear }}. Made with Vue/Nuxt & Netlify.
+        © Adrián Carmona {{ currentYear }}. {{ $t("made_with") }}
       </p>
       <span
         class="

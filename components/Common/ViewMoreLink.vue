@@ -7,6 +7,7 @@
       font-medium
       title-font
       float-right
+      uppercase
     "
     :to="localePath(url)"
   >

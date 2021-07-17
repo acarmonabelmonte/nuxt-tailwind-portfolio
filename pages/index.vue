@@ -6,7 +6,7 @@
         <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto">
           <HomeHeader />
           <HomeProjectSection :projects="projects" />
-          <CommonViewMoreLink :url="'projects'" :text="'MÁS PROYECTOS...'" />
+          <CommonViewMoreLink :url="'projects'" :text="$t('more_projects')" />
           <HomeAboutSection />
           <CommonViewMoreLink :url="'about-me'" :text="'MÁS SOBRE MÍ...'" />
           <HomeContactSection />

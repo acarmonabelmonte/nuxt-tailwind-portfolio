@@ -4,7 +4,9 @@
       <div class="flex flex-wrap -m-2">
         <div class="p-2 w-full sm:w-1/2">
           <div class="relative">
-            <label for="name" class="leading-7 text-sm">Name</label>
+            <label for="name" class="leading-7 text-sm">{{
+              $t("contact_label_name")
+            }}</label>
             <input
               type="text"
               id="name"
@@ -32,7 +34,9 @@
         </div>
         <div class="p-2 w-full sm:w-1/2">
           <div class="relative">
-            <label for="email" class="leading-7 text-sm">Email</label>
+            <label for="email" class="leading-7 text-sm">{{
+              $t("contact_label_email")
+            }}</label>
             <input
               type="email"
               id="email"
@@ -60,7 +64,9 @@
         </div>
         <div class="p-2 w-full">
           <div class="relative">
-            <label for="message" class="leading-7 text-sm">Message</label>
+            <label for="message" class="leading-7 text-sm">{{
+              $t("contact_label_message")
+            }}</label>
             <textarea
               id="message"
               name="message"
@@ -103,7 +109,7 @@
               text-lg
             "
           >
-            Enviar
+            {{ $t("btn_send") }}
           </button>
         </div>
       </div>

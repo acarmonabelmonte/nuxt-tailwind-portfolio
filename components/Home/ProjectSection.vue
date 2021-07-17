@@ -4,7 +4,7 @@
       <div class="flex flex-wrap w-full mb-10 sm:mb-8">
         <div class="w-full">
           <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2">
-            Projects
+            {{ $t("projects") }}
           </h1>
           <div class="h-1 w-20 bg-blue-600 rounded"></div>
         </div>
@@ -29,10 +29,11 @@
                 text-blue-600 text-xs
                 font-medium
                 title-font
+                uppercase
               "
               :href="project.url"
             >
-              VER WEB
+              {{ $t("see_web") }}
               <font-awesome-icon :icon="['fas', 'globe']" />
             </a>
             <h2 class="text-lg font-medium title-font">
