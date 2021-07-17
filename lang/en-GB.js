@@ -27,6 +27,7 @@ export default {
   contact_label_name: "Name",
   contact_label_email: "Email",
   contact_label_message: "Message",
+  contact_form_message: "The message has been sent successfully",
   btn_send: "Send",
   // Footer
   made_with: "Made with Vue/Nuxt, Tailwind CSS and Netlify."
