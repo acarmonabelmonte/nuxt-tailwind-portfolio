@@ -4,9 +4,9 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'nuxt-tailwind-portfolio',
+    title: 'Adrián Carmona - Frontend Developer',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'es'
     },
     meta: [{
         charset: 'utf-8'
