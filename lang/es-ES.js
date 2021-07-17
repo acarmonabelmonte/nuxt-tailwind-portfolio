@@ -1,9 +1,15 @@
 export default {
-  //HomePage
+  // HomePage
   welcome_title: "¡Hola! Soy Adrián Carmona",
   welcome_subtitle: "Soy Desarrollador Frontend. Echa un vistazo a mi portfolio y conoce más sobre mí y mi trabajo.",
   btn_cv: "Ver CV",
   about_me_section: "Mi nombre es Adrián Carmona, soy un apasionado del mundo tecnológico e intento estar en constante aprendizaje de las últimas novedades y crecer día a día como profesional del sector.",
+  // About Page
+  about_p1: "Soy Desarrollador Front-End. Mi trabajo consiste en construir apartir de código las interfaces web que utilizamos a partir de ideas o diseños. El front-end es la capa frontal y que se ve enlos sitios webs o en aplicaciones. Incluye el diseño, la distribución del contenido, las funcionalidades y todos los elementos con los que un usuario interactúa: Fuentes, botones, tablas, menús, colores, etc.",
+  about_p2: "He trabajado con las siguientes tecnologías:",
+  about_p3: "Puedes ver mi formación académica y mi experiencia laboral en mi currículum:",
+  about_p4: "Gracias por emplear tu tiempo en leer e interesarte en conocer más acerca de mí.",
+  about_p5: "¡Un saludo!",
   // Navbar:
   home: "Inicio",
   about_me: "Sobre mí",

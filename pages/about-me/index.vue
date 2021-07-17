@@ -4,20 +4,37 @@
     <section>
       <div class="container px-5 py-24 mx-auto">
         <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto">
-          <HomeAboutSection />
+          <HomeAboutSection class="italic -mb-16" />
           <div class="container px-5 mx-auto italic -pt-32">
             <p class="leading-relaxed text-lg mb-3">
-              Soy Desarrollador Front-End. Mi trabajo consiste en construir a
-              partir de código las interfaces web que utilizamos a partir de
-              ideas o diseños. El front-end es la capa frontal y que se ve en
-              los sitios webs o en aplicaciones. Incluye el diseño, la
-              distribución del contenido, las funcionalidades y todos los
-              elementos con los que un usuario interactúa: Fuentes, botones,
-              tablas, menús, colores, etc.
+              {{ $t("about_p1") }}
             </p>
-            <p class="leading-relaxed text-lg mb-3">
-              He trabajado con las siguientes tecnologías:
+            <p class="leading-relaxed text-lg mb-4">
+              {{ $t("about_p2") }}
             </p>
+            <AboutTechSection class="-mb-4" />
+            <p class="leading-relaxed text-lg mb-4">
+              {{ $t("about_p3") }}
+            </p>
+            <a
+              class="
+                tracking-widest
+                dark:text-blue-500
+                text-blue-600
+                title-font
+                uppercase
+                not-italic
+              "
+              href="/documents/cv-acarmona.pdf"
+              download="cv-adrian-carmona-belmonte"
+            >
+              {{ $t("btn_cv") }}
+              <font-awesome-icon :icon="['fas', 'file-download']" />
+            </a>
+            <p class="leading-relaxed text-lg mt-6 mb-3">
+              {{ $t("about_p4") }}
+            </p>
+            <p class="leading-relaxed text-lg mb-3">{{ $t("about_p5") }}</p>
           </div>
         </div>
       </div>
