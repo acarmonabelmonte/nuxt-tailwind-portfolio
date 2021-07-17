@@ -8,10 +8,10 @@ description: |-
   The key points of this development are the following:
 image: "/images/cms/folks-vacation.png"
 url: https://folks-vacation.com/
-list: "<ul>\n   <li> Integration with PMS via API </li>\n   <li> Development of the
-  integrated booking engine </li>\n   <li> Synchronization with OTAs </li>\n   <li>
-  Property management </li>\n   <li> Integrated CMS </li>\n   <li> Fully scalable
-  cloud deployment and continuous monitoring </li>\n   <li> Integration with payment
-  gateways </li>\n</ul> "
+list: "<ul>\n   <li>- Integration with PMS via API </li>\n   <li>- Development of
+  the integrated booking engine </li>\n   <li>- Synchronization with OTAs </li>\n
+  \  <li>- Property management </li>\n   <li>- Integrated CMS </li>\n   <li>- Fully
+  scalable cloud deployment and continuous monitoring </li>\n   <li>- Integration
+  with payment gateways </li>\n</ul> "
 
 ---
