@@ -84,5 +84,35 @@ export default {
       projects: projects.sort(() => Math.random() - 0.5),
     };
   },
+  head() {
+    return {
+      title: this.$t("projects"),
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: this.$t("welcome_subtitle"),
+        },
+        { hid: "og:title", property: "og:title", content: this.$t("projects") },
+        {
+          hid: "og:description",
+          property: "og:description",
+          content: this.$t("welcome_subtitle"),
+        },
+        {
+          hid: "og:image",
+          property: "og:image",
+          content: "/images/logo/logo-light.png",
+        },
+      ],
+    };
+  },
 };
 </script>
+
+<style>
+::-webkit-scrollbar {
+  height: 0; /* height of horizontal scrollbar ← You're missing this */
+  width: 0; /* width of vertical scrollbar */
+}
+</style>

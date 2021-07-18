@@ -1,36 +1,74 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-
+  loading: {
+    color: "#3B82F6",
+    height: "3px"
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Adrián Carmona - Frontend Developer',
-    htmlAttrs: {
-      lang: 'es'
-    },
+    title: "",
+    titleTemplate: "Adrián Carmona - Frontend Developer | %s",
     meta: [{
-        charset: 'utf-8'
+        charset: "utf-8"
       },
       {
-        name: 'viewport',
-        content: 'width=device-width, initial-scale=1'
+        name: "viewport",
+        content: "width=device-width, user-scalable=no"
       },
       {
-        hid: 'description',
-        name: 'description',
-        content: ''
+        hid: "theme-color",
+        name: "theme-color",
+        content: "#3B82F6"
       },
       {
-        name: 'format-detection',
-        content: 'telephone=no'
+        hid: "og:site_name",
+        name: "og:site_name",
+        content: "Adrián Carmona - Frontend Dev"
+      },
+      {
+        hid: "apple-mobile-web-app-title",
+        name: "apple-mobile-web-app-title",
+        content: "Adrián Carmona - Frontend Dev"
+      },
+      {
+        hid: "keywords",
+        name: "keywords",
+        content: "adrian, carmona, belmonte, Adrián Carmona Belmonte, acarmona, frotend, acarmona.dev, acarmonabelmonte, mallorca, desarrollo web, seo, adrian carmona belmonte."
+      },
+      {
+        hid: "publisher",
+        name: "publisher",
+        content: "Adrián Carmona Belmonte"
+      },
+      {
+        hid: "robots",
+        name: "robots",
+        content: "index, follow"
+      },
+      {
+        name: "twitter:site",
+        content: "@adriancarbel"
       }
     ],
     link: [{
-      rel: 'icon',
-      type: 'image/x-icon',
-      href: '/favicon.ico'
-    }]
+        rel: "icon",
+        type: "image/x-icon",
+        href: "/favicon.ico"
+      },
+      {
+        rel: "shortcut icon",
+        type: "image/x-icon",
+        href: "/favicon.ico"
+      },
+      {
+        rel: "apple-touch-icon",
+        type: "image/x-icon",
+        href: "/favicon.ico"
+      }
+    ]
   },
+
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [],
@@ -52,15 +90,16 @@ export default {
 
   tailwindcss: {
     jit: true,
-    // add '~tailwind.config` alias
     exposeConfig: true
   },
   colorMode: {
-    classSuffix: ""
+    classSuffix: "",
+    preference: 'light', // default value of $colorMode.preference,
+    storageKey: 'nuxt-color-mode'
   },
   toast: {
     position: 'top-right',
-    duration : 3000
+    duration: 3000
   },
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
