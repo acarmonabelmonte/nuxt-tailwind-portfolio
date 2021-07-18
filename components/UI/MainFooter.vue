@@ -20,6 +20,8 @@
             ? '/images/logo/logo-light.png'
             : '/images/logo/logo-dark.png'
         "
+        width="500"
+        height="600"
       />
 
       <p

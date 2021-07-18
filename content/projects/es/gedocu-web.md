@@ -1,7 +1,7 @@
 ---
 lang: es
 title: Web de Gedocu Consulting
-image: "/images/cms/gedocu-web.png"
+image: "/images/cms/gedocu-web.jpg"
 description: 'Empresa que desarrolla aplicaciones y soluciones para satisfacer sus
   necesidades: desde páginas webs, tiendas online, apps móviles hasta ingeniería de
   sistemas y cloud o complejas aplicaciones web de gestión, todo siempre a la medida
