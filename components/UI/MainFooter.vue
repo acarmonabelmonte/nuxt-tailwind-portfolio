@@ -3,8 +3,10 @@
     <div
       class="container px-5 py-4 mx-auto flex items-center sm:flex-row flex-col"
     >
-      <a
+      <img
         class="
+          w-10
+          h-auto
           flex
           title-font
           font-medium
@@ -12,16 +14,14 @@
           md:justify-start
           justify-center
         "
-      >
-        <img
-          class="w-10 h-auto"
-          :src="
-            $colorMode.preference == 'light'
-              ? '/images/logo/logo-light.png'
-              : '/images/logo/logo-dark.png'
-          "
-        />
-      </a>
+        alt="logo"
+        :src="
+          $colorMode.preference == 'light'
+            ? '/images/logo/logo-light.png'
+            : '/images/logo/logo-dark.png'
+        "
+      />
+
       <p
         class="
           text-sm
@@ -51,6 +51,7 @@
           :key="index"
           :href="item.href"
           target="_blank"
+          :aria-label="item.name"
         >
           <font-awesome-icon
             :icon="[item.type, item.name]"

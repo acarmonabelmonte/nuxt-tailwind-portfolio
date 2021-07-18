@@ -19,7 +19,7 @@
             <img
               class="h-40 rounded w-full object-cover object-center mb-6"
               :src="project.image"
-              alt="content"
+              :alt="project.name"
             />
             <a
               v-if="project.url"

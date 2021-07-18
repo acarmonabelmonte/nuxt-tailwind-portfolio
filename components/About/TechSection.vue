@@ -9,7 +9,7 @@
         >
           <div class="h-full text-center">
             <img
-              alt="testimonial"
+              :alt="tech.name"
               class="
                 w-20
                 h-20
