@@ -14,7 +14,7 @@ export default {
       },
       {
         name: "viewport",
-        content: "width=device-width, user-scalable=no"
+        content: "width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=3.0"
       },
       {
         hid: "theme-color",
@@ -126,7 +126,7 @@ export default {
   content: {},
 
   i18n: {
-    // baseUrl: "https://acarmonabelmonte.github.io/",
+    baseUrl: "https://acarmona.dev/",
     noPrefixDefaultLocale: true,
     vueI18n: {
       fallbackLocale: "es",

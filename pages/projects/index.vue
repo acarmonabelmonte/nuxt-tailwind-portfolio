@@ -32,7 +32,7 @@
                         mb-6
                       "
                       :src="project.image"
-                      alt="content"
+                      :alt="project.name"
                     />
                     <a
                       v-if="project.url"
