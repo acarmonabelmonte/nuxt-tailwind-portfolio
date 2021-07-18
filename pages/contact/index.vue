@@ -42,6 +42,7 @@
             :key="index"
             :href="item.href"
             target="_blank"
+            rel="noreferrer noopener"
           >
             {{ item.name }}
             <font-awesome-icon :icon="[item.type, item.name]" />
