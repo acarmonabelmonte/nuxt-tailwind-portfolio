@@ -33,6 +33,8 @@
                       "
                       :src="project.image"
                       :alt="project.title"
+                      width="500"
+                      height="600"
                     />
                     <a
                       v-if="project.url"

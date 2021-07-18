@@ -10,6 +10,8 @@
           <div class="h-full text-center">
             <img
               :alt="tech.name"
+              width="500"
+              height="600"
               class="
                 w-20
                 h-20

@@ -20,6 +20,8 @@
               class="h-40 rounded w-full object-cover object-center mb-6"
               :src="project.image"
               :alt="project.title"
+              width="500"
+              height="600"
             />
             <a
               v-if="project.url"

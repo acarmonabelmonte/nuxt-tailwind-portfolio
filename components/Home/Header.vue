@@ -25,14 +25,15 @@
             class="
               inline-flex
               text-white
-              bg-blue-500
+              bg-blue-600
               border-0
               py-2
               px-6
               focus:outline-none
-              hover:bg-blue-600
+              hover:bg-blue-700
               rounded
               text-lg
+              font-semibold
             "
             href="/documents/cv-acarmona.pdf"
             download="cv-adrian-carmona-belmonte"
@@ -46,6 +47,8 @@
           class="object-cover object-center rounded"
           alt="about-me"
           src="/svg/about-me.svg"
+          width="500"
+          height="600"
         />
       </div>
     </div>
