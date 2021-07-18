@@ -51,6 +51,7 @@
           :key="index"
           :href="item.href"
           target="_blank"
+          rel="noreferrer noopener"
           :aria-label="item.name"
         >
           <font-awesome-icon
