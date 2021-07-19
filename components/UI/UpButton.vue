@@ -52,7 +52,7 @@ export default {
   line-height: 22px;
   bottom: 40px;
   right: 7px;
-  z-index: 49;
+  z-index: 2;
   font-size: 18px;
   border: none;
   outline: none;
