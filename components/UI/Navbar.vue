@@ -81,12 +81,12 @@
           top-0
           left-0
           w-full
+          h-full
           bg-white
           dark:text-white
           dark:bg-gray-800
           text-black
           fixed
-          h-full
           overflow-auto
           ease-in-out
           transition-all
