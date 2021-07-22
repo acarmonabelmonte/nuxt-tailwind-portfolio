@@ -1,7 +1,5 @@
 <template>
   <div class="bg-white dark:bg-gray-900 text-black">
-    <UINavbar />
-
     <section>
       <div class="container px-5 py-24 mx-auto -mb-20">
         <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto">
@@ -70,8 +68,6 @@
         </div>
       </div>
     </section>
-    <UIUpButton :scrollTopPixels="100" />
-    <UIMainFooter />
   </div>
 </template>
 
@@ -111,10 +107,3 @@ export default {
   },
 };
 </script>
-
-<style>
-::-webkit-scrollbar {
-  height: 0; /* height of horizontal scrollbar ← You're missing this */
-  width: 0; /* width of vertical scrollbar */
-}
-</style>
